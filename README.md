@@ -176,12 +176,12 @@ ADD Age_Group varchar(30);
 
 UPDATE health_care_adm
 SET Age_Group = CASE
-					WHEN Age BETWEEN 13 AND 19 THEN 'Teenager(13-19y)'
-					WHEN Age BETWEEN 20 AND 32 THEN 'Young_Adult(20-32y)'
-					WHEN Age BETWEEN 33 AND 52 THEN 'Adult(33-52y)'
-					WHEN Age BETWEEN 53 AND 72 THEN 'Late middle-Aged(53-72y)'
-					ELSE 'Senior(>73y)'
-				END;
+ 	           WHEN Age BETWEEN 13 AND 19 THEN 'Teenager(13-19y)'
+		   WHEN Age BETWEEN 20 AND 32 THEN 'Young_Adult(20-32y)'
+		   WHEN Age BETWEEN 33 AND 52 THEN 'Adult(33-52y)'
+		   WHEN Age BETWEEN 53 AND 72 THEN 'Late middle-Aged(53-72y)'
+		   ELSE 'Senior(>73y)'
+		END;
 
 -- 1b.
 ALTER TABLE health_care_adm
