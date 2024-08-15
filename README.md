@@ -34,7 +34,7 @@
 
   - What is the business problem?
 
-  The Chief Operating Officer of the Hospital aims to determine the financial implication of admitting patients in a secondary care services. The findings from this analysis will help improve service efficiency and attain better and improved deal with the insurance providers.
+  The Chief Operating Officer of the Hospital aims to determine the financial implication of admitting patients in a secondary care services.
 
 
   - What could be the ideal solution?
@@ -135,11 +135,10 @@ To understand what it should contain, we need to understand what business questi
 6. Visualize the data in Power BI
 7. Generate the findings based on the insights
 8. Write the documentation 
-9. Publish the data to GitHub Pages
+9. Publish and present findings to the board.
 
 ## Data exploration 
 
-This stage typically involves an overview of the dataset for inconsistencies, whitespaces, errors, corrupted characters, and blank fields.
 
 ## Data Cleaning
 
@@ -149,7 +148,7 @@ The aim is to normlize and structure our dataset to be ready for analysis.
 The cleaned data should meet the following criteria:
 
 - Contain only columns relevant to the analysis
-- All data types should be appropiate for the contents of each column
+- All data types should be appropriate for the contents of each column
 - No null and blank values in the dataset indicating complete data for all records.
 
 To attaiin a normalized dataset, the following steps are required;
